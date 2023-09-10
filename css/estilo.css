@@ -34,7 +34,7 @@ body {
   justify-content: center;
 }
 
-.crousel-item {
+.carousel-item {
   height: 80vh;
   min-height: 200px;
 }
