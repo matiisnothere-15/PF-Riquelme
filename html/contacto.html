@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="../css/estilo.css">
 </head>
 
-<body>
+<body style="background-image: url(../img/banner_rayas.png);">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top " style="margin-bottom: 100px;">
         <div class="container">
             <!--navbar y boton del navbar-->
@@ -52,56 +52,58 @@
             </div>
         </div>
     </nav>
-    <section class="contact section-padding-loggin" style="background-image: url(../img/banner_rayas.png);">
-        <form class="  p-4 m-auto  d-flex flex-column align-center">
-            <div class="d-flex justify-content-center">
-                <h5 class="titulo_formulario text-white" style="width: 40%;">Formulario de consulta</h5>
-            </div>
-            <div class="formulario  d-flex flex-column justify-content-center">
-                <div class="col-md-12">
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label " style="color: aliceblue;">Nombre y Apellido</label>
-                        <input type="text" title="Ingrese nombre y apellido" class="form-control" id="nom"  aria-describedby="emailHelp" placeholder="Ej: Alan Brito">
-                        <div class="avisoNom"></div>
-                    </div>
+    <section class="contact section-padding-loggin w-100" ">
+        <div class="contenedor">
+            <form class="  p-4 m-auto  d-flex flex-column align-center">
+                <div class="d-flex justify-content-center">
+                    <h5 class="titulo_formulario text-white" style=" background-color: rgb(0, 0, 0);">Formulario de consulta</h5>
                 </div>
-                <div class="col-md-12">
-                    <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label" style="color: aliceblue;" >Telefono</label>
-                        <input type="number" title="Ingrese telefono " class="form-control" id="tel" placeholder="Ej: 952381975">
-                        <div class="avisotel"></div>
+                <div class="formulario  d-flex flex-column justify-content-center">
+                    <div class="col-md-12">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label " style="color: aliceblue;">Nombre y Apellido</label>
+                            <input type="text" title="Ingrese nombre y apellido" class="form-control" id="nom"  aria-describedby="emailHelp" placeholder="Ej: Alan Brito">
+                            <div class="avisoNom"></div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-12">
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label " style="color: aliceblue;">Email </label>
-                        <input type="text" title="Ingrese su Email" class="form-control" id="nom"  aria-describedby="emailHelp" placeholder="Ej: Email123@gmail.com">
-                        <div class="avisoNom"></div>
+                    <div class="col-md-12">
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label" style="color: aliceblue;" >Telefono</label>
+                            <input type="number" title="Ingrese telefono " class="form-control" id="tel" placeholder="Ej: 952381975">
+                            <div class="avisotel"></div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-12">
-                    <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label"style="color: aliceblue;" >dirección</label>
-                        <input type="text" title="Ingrese direccion " class="form-control" id="dire" placeholder="Ej: AV.Matta 252">
-                        <div class="avisodire"></div>
+                    <div class="col-md-12">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label " style="color: aliceblue;">Email </label>
+                            <input type="text" title="Ingrese su Email" class="form-control" id="nom"  aria-describedby="emailHelp" placeholder="Ej: Email123@gmail.com">
+                            <div class="avisoNom"></div>
+                        </div>
                     </div>
-                </div>
-
-                <div class="col-md-12">
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label color" style="color: aliceblue">Tipo de consulta</label>
-                        <select class="form-select" aria-label="Default select example">
-                            <option selected>Seleccione una opcion</option>
-                            <option value="1">Hacer un pedido</option>
-                            <option value="2">Precios</option>
-                            <option value="3">Detalles creacion de producto</option>
-                        </select>
+                    <div class="col-md-12">
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label"style="color: aliceblue;" >dirección</label>
+                            <input type="text" title="Ingrese direccion " class="form-control" id="dire" placeholder="Ej: AV.Matta 252">
+                            <div class="avisodire"></div>
+                        </div>
                     </div>
-                    <div class="boton_form">
-                        <a href=""><div class="btn btn--border btn--primary btn--animated">ENVIAR</div></a>
+    
+                    <div class="col-md-12">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label color" style="color: aliceblue">Tipo de consulta</label>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Seleccione una opcion</option>
+                                <option value="1">Hacer un pedido</option>
+                                <option value="2">Precios</option>
+                                <option value="3">Detalles creacion de producto</option>
+                            </select>
+                        </div>
+                        <div class="boton_form">
+                            <a href=""><div class="btn btn--border btn--primary btn--animated">ENVIAR</div></a>
+                        </div>
                     </div>
-                </div>
-        </form>
+            </form>
+        </div>
     </section>
     <footer class="bg-dark " >
         <p>Todos los derechos reservados por copyright</p>

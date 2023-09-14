@@ -1,5 +1,7 @@
 @charset "UTF-8";
 .formulario {
+  width: 100%;
+  padding: 15px;
   border-radius: 5px;
   /* Estilo del título del formulario */
   /* Estilo para el formulario de inicio de sesión */
@@ -18,6 +20,7 @@
 .formulario .formulario_login {
   flex-direction: column;
   width: 100%;
+  padding: 20px;
   border-radius: 5px;
   display: flex;
   justify-content: center;
@@ -25,6 +28,9 @@
 }
 .formulario .formulario_login input {
   width: 100%;
+  max-width: 400px;
+  margin-bottom: 10px;
+  margin-left: 35%;
 }
 .formulario .formulario_login label {
   color: #ffffff;
@@ -33,15 +39,18 @@
 }
 .formulario .formulario_login .section-padding-loggin {
   padding-top: 30px;
+  padding-bottom: 20px;
   gap: 10px;
 }
 .formulario .formulario_login button {
-
+  width: 100%;
+  max-width: 400px;
   margin-top: 10px;
 }
 .formulario .boton_form {
   display: flex;
   justify-content: center;
+  margin-bottom: 100PX;
   font-family: "Roboto", sans-serif;
 }
 .formulario .boton_form .btn {
@@ -77,7 +86,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #000000;
+  background: #202220;
   transform: scaleX(0);
   transform-origin: 0 50%;
   transition-property: transform;
@@ -101,19 +110,22 @@
   }
   .formulario .titulo_formulario {
     font-size: 20px;
-
   }
-
-  .contenedor{
-      background-color: #1c1c1cbd;
-      max-width: 100%;
-      width: 100%;
-      height: 50%; 
-      margin: auto;
-      top: 0;
-      left: 0; 
-      right: 0; 
-      bottom: 0; 
+  .formulario .formulario input {
+    margin-right: 0;
+    margin-left: 80px;
+    width: 250px;
+  }
+  .formulario .formulario button {
+    width: 250px;
+    margin-left: 0;
+    margin-right: 22px;
+  }
+  .formulario .formulario {
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -122,16 +134,21 @@
     align-self: center;
     align-items: center;
     border-radius: 5px;
+    padding-left: 2%;
     margin-top: 10%;
   }
   .formulario .titulo_formulario {
     font-size: 40px;
   }
-
+  .formulario .formulario_login input {
+    margin-right: 0;
+    margin-left: 0;
+    width: 400px;
+  }
   .formulario .formulario_login {
     flex-direction: column;
     width: 100%;
-
+    padding: 20px;
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -153,28 +170,4 @@
     padding-bottom: 30px;
     gap: 10px;
   }
-  .contenedor{
-    background-color: #1c1c1cbd;
-    width: 50%; 
-    height: 80%; 
-    margin: auto;
-    top: 0;
-    left: 0; 
-    right: 0; 
-    bottom: 0; 
-  }
-}
-.contenedor{
-  background-color: #1c1c1ce5;
-  max-width: 100%;
-  width: 70%;
-  height: 100%; 
-  margin: auto;
-  top: 0;
-  left: 0; 
-  right: 0; 
-  bottom: 0; 
-  margin-bottom: 80px;
-  margin-top: 80px;
-}
-/*# sourceMappingURL=contacto.css.map */
+}/*# sourceMappingURL=contacto.css.map */

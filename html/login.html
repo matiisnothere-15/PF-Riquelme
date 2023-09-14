@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top " style="margin-bottom: 100px;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top " >
         <div class="container">
             <!--navbar y boton del navbar-->
             <a href="#" class="navbar-brand "><img src="../img/logo.png" alt="logo" style="height: 30px;"></a>
@@ -49,31 +49,34 @@
             </div>
         </div>
     </nav>
-    <section class="contact w-100 section-padding " style="background-image: url(../img/banner_rayas.png);">
-        <form class="  p-4 m-auto d-flex flex-column align-center " style="margin-top: 100px;">
-            <div class="d-flex justify-content-center">
-                <img src="../img/user_blancop.png" alt="logo" style="width: 100px; margin-top: 100px;">
-            </div>
-            <div class="formulario   d-flex flex-column align-center">
-                <div class="col-md-12">
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label " style="color: aliceblue;">Email:</label>
-                        <input type="text" title="Ingrese Email" class="form-control" id="nom"  aria-describedby="emailHelp" placeholder="Ej: Emailepico@gmail.com">
-                        <div class="avisoNom"></div>
-                    </div>
+    <section class="contact w-100 section-padding  " style="background-image: url(../img/banner_rayas.png);">
+        <div class="contenedor">
+            <form class="  p-4 m-auto d-flex flex-column align-center " style="margin-top: 100px;">
+                <div class="d-flex justify-content-center">
+                    <img src="../img/user_blancop.png" alt="logo" style="width: 100px; margin-top: 60px;">
                 </div>
-                <div class="col-md-12">
-                    <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label" style="color: aliceblue;">Contraseña:</label>
-                        <input type="password" title="Ingrese Password " class="form-control" id="tel" placeholder="contraseña">
-                        <div class="avisotel"></div>
+                <div class="formulario   d-flex flex-column align-center">
+                    <div class="col-md-12">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label " style="color: aliceblue;">Email:</label>
+                            <input type="text" title="Ingrese Email" class="form-control" id="nom"  aria-describedby="emailHelp" placeholder="Ej: Emailepico@gmail.com">
+                            <div class="avisoNom"></div>
+                        </div>
                     </div>
+                    <div class="col-md-12">
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label" style="color: aliceblue;">Contraseña:</label>
+                            <input type="password" title="Ingrese Password " class="form-control" id="tel" placeholder="contraseña">
+                            <div class="avisotel"></div>
+                        </div>
+    
+                        <div class="boton_form">
+                            <a href=""><div class="btn btn--border btn--primary btn--animated text-white">ENVIAR</div></a>
+                         </div>
+                </div>
+            </form>
 
-                    <div class="boton_form">
-                        <a href=""><div class="btn btn--border btn--primary btn--animated text-white">ENVIAR</div></a>
-                     </div>
-            </div>
-        </form>
+        </div>
     </section>
     <footer class="bg-dark " >
         <p>Todos los derechos reservados por copyright</p>
