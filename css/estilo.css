@@ -314,5 +314,16 @@ footer i {
   transform: scaleX(1);
   transition-timing-function: cubic-bezier(0.45, 1.64, 0.47, 0.66);
 }
+.fondo_producto{
+  height: 70%;
+  width: 60%;
+  background-color: #161815e4;
+
+}
+.fondo_producto img{
+  height: 350px;
+  width: 300px;
+
+}
 
 /*# sourceMappingURL=estilo.css.map */

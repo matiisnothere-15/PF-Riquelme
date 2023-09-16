@@ -1,0 +1,234 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/banner_rayas.png);
+}
+
+
+header {
+    background-color: #0c0c0cf6;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+
+.product {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.product-image {
+    flex: 1;
+    background-color: #161815db; 
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.product-image img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.product-details {
+    flex: 2;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.product-details h2 {
+    text-align: center;
+    margin-top: 0;
+    background-color: #161815db; 
+    padding: 40px;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+
+    
+}
+.product-details p {
+    margin-top: 0;
+    background-color: #161815db; 
+    padding: 40px;
+    box-sizing: border-box;
+}
+.fondo{
+    flex: 1;
+    background-color: #161815db; 
+    padding: 40px;
+    box-sizing: border-box;
+    height: 100%;
+}
+/*foter*/
+
+footer {
+    display: grid;
+    place-items: center;
+    padding: 50px 0;
+    height: 100%;
+    background-color: #161815;
+  }
+  
+  footer {
+    background-color: #161815;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+  }
+  
+  footer p {
+    margin-bottom: 20px;
+  }
+  
+  footer i {
+    color: #fff;
+    font-size: 50px;
+    letter-spacing: 30px;
+  }
+  
+  .subir {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 28px;
+    box-shadow: 0 0 5px #fff;
+  }
+
+
+/*boton animado*/
+  
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.boton_form {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+  position: relative;
+  display: inline-block;
+  letter-spacing: 1.2px;
+  padding: 12px 32px;
+  text-align: center;
+  text-transform: uppercase;
+  overflow: hidden;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: none;
+}
+.btn--primary {
+  color: #ffffff;
+}
+.btn--border {
+  border: 1px solid #0058d4;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.btn--animated {
+  transition-property: color;
+  transition-duration: 0.2s;
+}
+.btn--animated:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #0058d4;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  transition-property: transform;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+  z-index: -1;
+}
+.btn--animated:hover {
+  color: #fff;
+}
+.btn--animated:hover:before {
+  transform: scaleX(1);
+  transition-timing-function: cubic-bezier(0.45, 1.64, 0.47, 0.66);
+}
+.fondo_producto{
+  height: 70%;
+  width: 60%;
+  background-color: #161815e4;
+
+}
+.fondo_producto img{
+  height: 350px;
+  width: 300px;
+
+}
+  
+.navbar-nav a {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500px;
+}
+  
+.navbar-dark .navabr-bard {
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+  
+.navbar-light .navabr-brand:focus, .navbar-light .navabr-bard:hover {
+    color: #161815;
+}
+  
+  .w-100 {
+    height: 100%;
+}
+  
+.navar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+}
+@media screen and (max-width: 767px) {
+    .product {
+        flex-direction: column;
+    }
+
+    .product-image {
+        margin-top: 10px;
+        padding: 20px;
+    }
+
+    .product-details {
+        margin-bottom: 40px;
+    }
+
+    .product-details h2,
+    .product-details p,
+    .fondo {
+        background-color: #161815db; 
+        padding: 20px;
+    }
+}
